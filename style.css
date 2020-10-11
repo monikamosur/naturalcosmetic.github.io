@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Josefin+Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 25px;
+  text-transform: uppercase;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li a:hover {
+  color: white;
+  opacity: .5;
+}
+
+h2,
+h3 {
+  font-family: "Abril Fatface";
+  color: #E8C5C3;
+  margin: 30px 0 50px 0;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+.left-col,
+.right-col {
+  background-color: #E8DBDA;
+  text-align: center;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.right-col {
+  background-color: #9C8C8A;
+}
+
+.main-pic {
+  width: 60%;
+}
+
+.scroll {
+  text-align: center;
+  text-transform: lowercase;
+  color: #9C8C8A;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 80px;
+  margin: 50px 0;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: "Josefin+Sans",
+    sans-serif;
+}
+
+h4 {
+  font-family: "Josefin+Sans",
+    sans-serif;
+  font-style: lighter;
+  font-size: 20px;
+  background-color: #E8DBDA;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+}
+
+.products {
+  position: relative;
+}
+
+.main a {
+  color: #9C8C8A;
+  border: 1px solid #9C8C8A;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  transition: .3s;
+  color: #9C8C8A;
+  opacity: .7;
+  text-decoration: none;
+}
+
+.extra-gutters {
+  padding: 0 60px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.adress {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #9C8C8A;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.social {
+  height: 30px;
+  margin: 20px 10px;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social:hover {
+  transition: .3s;
+  opacity: .6;
+}
+
+.footer-description,
+.sign {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.sign:hover {
+  color: white;
+  opacity: .6;
+  transition: .3s;
+}
+
+.credits {
+  font-size: 10px;
+  text-align: center;
+}
